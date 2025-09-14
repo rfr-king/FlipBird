@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "RRlwDzuIJG+4n76Y1YPZW9G6WQkJr6hXfKDh3ZIrhvHZwr00W3QKP0en7RJ2MVYcAxOSgj1av9injS20ZCwzTw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rfn-n\\Documents\\Flip\\Flip.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rfn-n\\.nuget\\packages\\raylib-cs\\4.5.0\\raylib-cs.4.5.0.nupkg.sha512",
+    "C:\\Users\\rfn-n\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
