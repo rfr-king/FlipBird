@@ -15,12 +15,15 @@ namespace Flip
 
             play.playerBall.Yposition = winHeigth / 2 - play.playerBall.diametr / 2;
             int pos = winWidth / 2 - play.playerBall.diametr / 2;
+            
+            play.playerBall.MaxYposition = winHeigth - play.playerBall.diametr / 2;
 
             float deltaTime = 0;
-            if (!Raylib.WindowShouldClose())
+            while (!Raylib.WindowShouldClose())
             {
 
                 Raylib.BeginDrawing();
+                Raylib.ClearBackground(Color.BLACK);
                 deltaTime = Raylib.GetFrameTime();
                 Raylib.DrawCircle(pos, play.playerBall.Yposition, play.playerBall.diametr, Color.RED);
                 if (Raylib.IsKeyPressed(KeyboardKey.KEY_SPACE))
